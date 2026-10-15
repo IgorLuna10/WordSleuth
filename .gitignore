@@ -1,0 +1,25 @@
+# Xcode & macOS
+.DS_Store
+*/.DS_Store
+build/
+DerivedData/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# User-specific Xcode files
+xcuserdata/
+*.xcuserdatad
+*.xcuserstate
+*.xcbkptlist
+
+# CocoaPods / SPM cache
+Pods/
+.build/
+.swiftpm/
+
+# Fastlane / Output
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output

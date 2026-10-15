@@ -6,13 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A35FC379302222C70065D447 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = A35FC378302222C70065D447 /* GoogleMobileAds */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A35FC34B302100A60065D447 /* WordSleuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordSleuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A35FC372302101C30065D447 /* Exceptions for "WordSleuth" folder in "WordSleuth" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A35FC34A302100A60065D447 /* WordSleuth */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A35FC34D302100A60065D447 /* WordSleuth */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A35FC372302101C30065D447 /* Exceptions for "WordSleuth" folder in "WordSleuth" target */,
+			);
 			path = WordSleuth;
 			sourceTree = "<group>";
 		};
@@ -23,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35FC379302222C70065D447 /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 			);
 			name = WordSleuth;
 			packageProductDependencies = (
+				A35FC378302222C70065D447 /* GoogleMobileAds */,
 			);
 			productName = WordSleuth;
 			productReference = A35FC34B302100A60065D447 /* WordSleuth.app */;
@@ -94,6 +113,9 @@
 			);
 			mainGroup = A35FC342302100A60065D447;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A35FC377302222C70065D447 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A35FC34C302100A60065D447 /* Products */;
 			projectDirPath = "";
@@ -256,6 +278,8 @@
 				DEVELOPMENT_TEAM = HPH64VDW5S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordSleuth/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "WordSleuth requires camera access to scan and solve wordsearch puzzles.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +312,8 @@
 				DEVELOPMENT_TEAM = HPH64VDW5S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordSleuth/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "WordSleuth requires camera access to scan and solve wordsearch puzzles.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -332,6 +358,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A35FC377302222C70065D447 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A35FC378302222C70065D447 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A35FC377302222C70065D447 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A35FC343302100A60065D447 /* Project object */;
 }
