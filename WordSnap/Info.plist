@@ -2,15 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleDisplayName</key>
+	<string>WordSnap</string>
+
 	<!-- AdMob Application Identifier -->
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-6560998053309699~6059919537</string>
 	
 	<!-- Privacy Permissions -->
 	<key>NSCameraUsageDescription</key>
-	<string>WordSleuth requires camera access to scan and solve wordsearch puzzles in real time.</string>
+	<string>WordSnap requires camera access to scan and solve wordsearch puzzles in real time.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>WordSleuth requires photo library access so you can import and solve wordsearch images.</string>
+	<string>WordSnap requires photo library access so you can import and solve wordsearch images.</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>Your data is used to deliver personalized ads and grant you free puzzle solves.</string>
 	

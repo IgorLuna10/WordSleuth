@@ -1,4 +1,4 @@
-# WordSleuth 🔍 — Real-Time Word Search Scanner & Solver for iOS
+# WordSnap 🔍 — Real-Time Word Search Scanner & Solver for iOS
 
 > **TL;DR (FR)** : Application iOS native développée en **Swift / SwiftUI** utilisant les frameworks **Apple Vision** et **AVFoundation** pour scanner et résoudre en temps réel des grilles de mots mêlés (sur papier ou écran). Elle intègre un pipeline OCR avec filtrage spatial et suppression de bruit, un algorithme de résolution matricielle 8-directionnel $O(R \times C \times L)$, et une interface interactive avec visualisation dynamique des trajectoires de mots et gestion des abonnements via **StoreKit 2**.
 
@@ -62,17 +62,17 @@ A native iOS puzzle-solving application that uses on-device computer vision and 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/IgorLuna10/WordSleuth.git
-   cd WordSleuth
+   git clone https://github.com/IgorLuna10/WordSnap.git
+   cd WordSnap
    ```
 
 2. **Open in Xcode:**
    ```bash
-   open WordSleuth.xcodeproj
+   open WordSnap.xcodeproj
    ```
 
 3. **Configure Signing:**
-   - In Xcode, select the `WordSleuth` target.
+   - In Xcode, select the `WordSnap` target.
    - Go to **Signing & Capabilities** and select your Apple Developer team.
 
 4. **Build & Run:**

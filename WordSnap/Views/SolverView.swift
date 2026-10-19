@@ -350,7 +350,7 @@ public struct SolverView: View {
     }
     
     private func shareSolution() {
-        let text = "I just solved this wordsearch using WordSleuth iOS! Found \(solutions.count) of \(words.count) words."
+        let text = "I just solved this wordsearch using WordSnap iOS! Found \(solutions.count) of \(words.count) words."
         let av = UIActivityViewController(activityItems: [text], applicationActivities: nil)
         
         // Present Activity View

@@ -1,11 +1,11 @@
-# WordSleuth Project Audit & Refactoring Guide for Terminal Gemini
+# WordSnap Project Audit & Refactoring Guide for Terminal Gemini
 
 ## 1. Executive Summary & Architecture Overview
-**WordSleuth** is a native iOS application written in **SwiftUI** designed to scan and solve word search puzzles in real time using **Apple Vision (OCR)**, **AVFoundation**, and **StoreKit 2**.
+**WordSnap** is a native iOS application written in **SwiftUI** designed to scan and solve word search puzzles in real time using **Apple Vision (OCR)**, **AVFoundation**, and **StoreKit 2**.
 
 ### Codebase Structure:
 ```text
-WordSleuth/
+WordSnap/
 ├── Models/
 │   ├── Coordinate.swift        # Matrix coordinates (row, col) & solution paths (WordPlacement)
 │   └── SavedPuzzle.swift       # Codable persistence model for historical scans

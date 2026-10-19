@@ -22,7 +22,7 @@ public struct CameraScanView: View {
                         .font(.title2)
                         .fontWeight(.bold)
                         .foregroundColor(.white)
-                    Text("Please enable camera access in Settings -> Privacy & Security -> Camera -> WordSleuth to scan puzzles directly.")
+                    Text("Please enable camera access in Settings -> Privacy & Security -> Camera -> WordSnap to scan puzzles directly.")
                         .font(.body)
                         .foregroundColor(Theme.textSecondary)
                         .multilineTextAlignment(.center)

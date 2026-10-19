@@ -92,7 +92,7 @@ public struct PaywallView: View {
                                     .offset(x: 6, y: 6)
                             }
                             
-                            Text("Unlock WordSleuth Pro")
+                            Text("Unlock WordSnap Pro")
                                 .font(.system(size: 28, weight: .black, design: .rounded))
                                 .foregroundColor(Theme.textPrimary)
                             

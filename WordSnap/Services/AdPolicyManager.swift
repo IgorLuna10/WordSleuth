@@ -32,10 +32,10 @@ public final class AdPolicyManager: ObservableObject {
     // MARK: - Storage Keys
     
     private let defaults = UserDefaults.standard
-    private let installDateKey = "wordsleuth.policy.installDate"
-    private let totalScansKey = "wordsleuth.policy.totalScans"
-    private let totalAdsKey = "wordsleuth.policy.totalRewardedAds"
-    private let totalHintsKey = "wordsleuth.policy.totalHints"
+    private let installDateKey = "wordsnap.policy.installDate"
+    private let totalScansKey = "wordsnap.policy.totalScans"
+    private let totalAdsKey = "wordsnap.policy.totalRewardedAds"
+    private let totalHintsKey = "wordsnap.policy.totalHints"
     
     private init() {
         if defaults.object(forKey: installDateKey) == nil {

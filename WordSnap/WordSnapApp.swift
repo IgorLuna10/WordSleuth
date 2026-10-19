@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct WordSleuthApp: App {
+struct WordSnapApp: App {
     @StateObject private var stateManager = AppStateManager()
 
     init() {

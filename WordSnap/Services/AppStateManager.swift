@@ -11,9 +11,9 @@ import Combine
 public final class AppStateManager: ObservableObject {
 
     // MARK: - Product IDs
-    public static let weeklyProductID = "com.wordsleuth.pro.weekly"
-    public static let monthlyProductID = "com.wordsleuth.pro.monthly"
-    public static let yearlyProductID = "com.wordsleuth.pro.yearly"
+    public static let weeklyProductID = "com.wordsnap.pro.weekly"
+    public static let monthlyProductID = "com.wordsnap.pro.monthly"
+    public static let yearlyProductID = "com.wordsnap.pro.yearly"
     public static let allProductIDs = [weeklyProductID, monthlyProductID, yearlyProductID]
 
     // MARK: - Published state
@@ -31,9 +31,9 @@ public final class AppStateManager: ObservableObject {
     private let standardDailyAllowance = AdPolicyManager.standardDailyAllowance
     private let resetInterval: TimeInterval = 24 * 3600 // 24 Hours
     private let defaults = UserDefaults.standard
-    private let freeScansKey = "wordsleuth.freeScansRemaining"
-    private let lastResetKey = "wordsleuth.lastResetTimestamp"
-    private let savedPuzzlesKey = "wordsleuth.savedPuzzles"
+    private let freeScansKey = "wordsnap.freeScansRemaining"
+    private let lastResetKey = "wordsnap.lastResetTimestamp"
+    private let savedPuzzlesKey = "wordsnap.savedPuzzles"
     
     private var transactionListenerTask: Task<Void, Never>?
     private var timerCancellable: AnyCancellable?
